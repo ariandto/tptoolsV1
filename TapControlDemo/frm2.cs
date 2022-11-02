@@ -275,6 +275,7 @@ namespace TapControlDemo
             dgv();
             this.dataGridView1.RowsDefaultCellStyle.BackColor = Color.LightBlue;
             this.dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.WhiteSmoke;
+            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(DataGridView.DefaultFont, FontStyle.Bold);
             // Get the hostname
 
             string myHost = System.Net.Dns.GetHostName();
