@@ -219,8 +219,8 @@ namespace TapControlDemo
                 DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
                 textBox5.Text = row.Cells["id"].Value.ToString();
                 textBox2.Text = row.Cells["shiptoname"].Value.ToString();
-                textBox4.Text = row.Cells["address"].Value.ToString();
-                textBox3.Text = row.Cells["remarks"].Value.ToString();
+                textBox3.Text = row.Cells["address"].Value.ToString();
+                textBox4.Text = row.Cells["remarks"].Value.ToString();
                 comboBox1.Text = row.Cells["area"].Value.ToString();
 
             }
