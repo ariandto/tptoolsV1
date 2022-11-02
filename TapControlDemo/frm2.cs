@@ -144,7 +144,7 @@ namespace TapControlDemo
                 MySqlConnection conn = konn.GetConn();
                 try
                 {
-                    cmd = new MySqlCommand("INSERT INTO route values ('" + textBox5.Text + "', '" + textBox4.Text + "','" + textBox3.Text + "','" + textBox2.Text + "','" + comboBox1.Text + "')", conn);
+                    cmd = new MySqlCommand("INSERT INTO route values ('" + textBox5.Text + "', '" + textBox2.Text + "','" + textBox4.Text + "','" + textBox3.Text + "','" + comboBox1.Text + "')", conn);
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Save Completed");
